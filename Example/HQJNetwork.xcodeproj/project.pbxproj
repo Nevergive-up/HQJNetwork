@@ -31,7 +31,7 @@
 		0712277A7A1C189B630B8F8F /* Pods_HQJNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQJNetwork_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D01826F66BCBCBF51C57DBC /* Pods-HQJNetwork_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQJNetwork_Tests.debug.xcconfig"; path = "Target Support Files/Pods-HQJNetwork_Tests/Pods-HQJNetwork_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58D82B24CFBB4E2178DEDB0C /* Pods_HQJNetwork_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HQJNetwork_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5E24DD77D14397087C70E93D /* HQJNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HQJNetwork.podspec; path = ../HQJNetwork.podspec; sourceTree = "<group>"; };
+		5E24DD77D14397087C70E93D /* HQJNetwork.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HQJNetwork.podspec; path = ../HQJNetwork.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5E30A35BF307FE5EAAB827D7 /* Pods-HQJNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQJNetwork_Example.debug.xcconfig"; path = "Target Support Files/Pods-HQJNetwork_Example/Pods-HQJNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* HQJNetwork_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HQJNetwork_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		635DC1F254141D6CC54BECB2 /* Pods-HQJNetwork_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQJNetwork_Tests.release.xcconfig"; path = "Target Support Files/Pods-HQJNetwork_Tests/Pods-HQJNetwork_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6F11EF68302AF52BCE3AF103 /* Pods-HQJNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HQJNetwork_Example.release.xcconfig"; path = "Target Support Files/Pods-HQJNetwork_Example/Pods-HQJNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B7AF4B99441DD3699CF3763D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BAD13B04E4CA311EFED8F5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B7AF4B99441DD3699CF3763D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BAD13B04E4CA311EFED8F5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 				0D01826F66BCBCBF51C57DBC /* Pods-HQJNetwork_Tests.debug.xcconfig */,
 				635DC1F254141D6CC54BECB2 /* Pods-HQJNetwork_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

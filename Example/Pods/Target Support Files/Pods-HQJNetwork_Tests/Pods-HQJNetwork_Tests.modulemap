@@ -1,0 +1,6 @@
+framework module Pods_HQJNetwork_Tests {
+  umbrella header "Pods-HQJNetwork_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
