@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HQJNetwork'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of HQJNetwork.'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 简介
+    HCNetwork、HQJNetwork 普通的网络请求
+    NetworkIng 带 json 的网络请求
+    HQJMD5 MD5 加密
+    HQJHttpsTool json 拆分
+    AESCrypt AES cbc 解密
                        DESC
 
   s.homepage         = 'https://github.com/mac/HQJNetwork'

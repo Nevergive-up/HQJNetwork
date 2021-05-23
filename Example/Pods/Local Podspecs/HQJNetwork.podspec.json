@@ -1,8 +1,8 @@
 {
   "name": "HQJNetwork",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A short description of HQJNetwork.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "TODO: 简介\n    HCNetwork、HQJNetwork 普通的网络请求\n    NetworkIng 带 json 的网络请求\n    HQJMD5 MD5 加密\n    HQJHttpsTool json 拆分\n    AESCrypt AES cbc 解密",
   "homepage": "https://github.com/mac/HQJNetwork",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/mac/HQJNetwork.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "10.0"

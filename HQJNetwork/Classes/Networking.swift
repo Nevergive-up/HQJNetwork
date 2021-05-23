@@ -1,8 +1,8 @@
 //
 //  Networking.swift
-//  HQJNetwork
+//  HCUser
 //
-//  Created by 衡前进 on 2021/5/15.
+//  Created by mac on 2021/5/23.
 //
 
 import UIKit

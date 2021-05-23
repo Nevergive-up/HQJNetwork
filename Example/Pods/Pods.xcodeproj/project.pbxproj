@@ -11,17 +11,16 @@
 		01A454D0A754AB1E61C2CA4230A40E3A /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EBD863533E1677C1A905C5C289E95E /* DDLog.m */; };
 		035F8D2DF10BF1F63545F2DB5BFBA528 /* DDOSLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = CF64C38C795604F0F0195E8644483E0F /* DDOSLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		05D7CE3B07D3772822A7A2007B75D64D /* CBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEE20DF3240A06CFE1E1709CD5A31EB /* CBridge.swift */; };
-		073C711415499F585D092BE6AB9BDF50 /* HQJHttpsTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109A8733ACAC51F4BED32307D4C5E017 /* HQJHttpsTool.swift */; };
 		0A1849775CF90D514963187D3A771CF8 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A87B757CD00CFCC760D87C1C366A8 /* Combine.swift */; };
 		0A900DF17E3B64F08AF673E9A0DDD697 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = E392947777D882324CAF48322DDF0406 /* OperationQueue+Alamofire.swift */; };
-		0DC8C9D139FC48A0D21FC5B4D23D7DA1 /* NetworkIng.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA40200D154E8DF0A51AA6059321D13D /* NetworkIng.swift */; };
 		10FCEA925DE825997FFE82456BF7EFB5 /* MangledName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A1C526F2E4148B031E7E3847F0F47F /* MangledName.swift */; };
 		1208E81DA8B532D0646D627B50290EB6 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1157264F1CB97D757CEAD28D779FBE7 /* AFError.swift */; };
+		12A6E5BBDB58A4AA760966E8F52C2791 /* HCNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB41A8C415D796F40ADC211B9F3342FA /* HCNetwork.swift */; };
 		1632E20B5E2EC052446624E1D1504B55 /* BuiltInBridgeType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FD69A71C9554CB63BC39C9A26A017EC /* BuiltInBridgeType.swift */; };
 		165FF174409FBFA1E1A948D615ECCD76 /* ExtendCustomBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2FF9BCA6B2A31B2F4503EDB4BD4B0 /* ExtendCustomBasicType.swift */; };
 		19D605A3233499828FB6B790869F3E9C /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BED2E2FD2A51898228C1C99AA13E2EF /* NetworkReachabilityManager.swift */; };
+		1BF127BD72D82B690BFBAC0F4391EFB6 /* HQJNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B1D9C00246955A4ECC6A1E0A532A73 /* HQJNetwork.swift */; };
 		1CB542840283278BC6E6946664EDD3E7 /* DDFileLogger+Internal.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FDAD10F91823B541A2C19384B9DF7C0 /* DDFileLogger+Internal.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		209F366F81C4851F27378990631E61A7 /* HQJNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC94ED4196F046414C49AAE82FF1B1B /* HQJNetwork.swift */; };
 		212EDC48B68107BEA9247F3464CE696E /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D106A0316B233C08C4D57220FC9414B0 /* StringEncoding+Alamofire.swift */; };
 		214EF4FBFA2540C9778D853D37373C39 /* Pods-HQJNetwork_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3001CAB634AED63A2F60A7012F0E16 /* Pods-HQJNetwork_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		218C14EAE5AA31C30314AE0289B732A0 /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA98488A4655A69BE4D2DC8324C43E0 /* Protected.swift */; };
@@ -37,7 +36,6 @@
 		341AB957C0C8D3C2949D4C550314091E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0060CB4DF3F92A563EA24EB7203B2708 /* Foundation.framework */; };
 		381FF05F8B4F611EE9C2FDBE4457BB89 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12A373D85A527AD431F1CA85E2134636 /* SessionDelegate.swift */; };
 		3909BFC38A33DE204A8CFA5A72ED3F33 /* CocoaLumberjack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6125E7185FDD14D6C64D415954C1214 /* CocoaLumberjack.swift */; };
-		40971DB69A22A99DEC19839E26A409E2 /* HQJNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 308EFFC3EAC55CEE2AD849DBEE5C56FB /* HQJNetwork-dummy.m */; };
 		422E48E0D2A083C988F59CBC43680E3F /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = F30143902A213F1894531957B5564052 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4335765F225CEA7D2D656832234CE5E9 /* DDLoggerNames.m in Sources */ = {isa = PBXBuildFile; fileRef = E33CA4A7F94A8B75B4EE9D8CC0F87DF1 /* DDLoggerNames.m */; };
 		445D8694F65E846B62ABBB8EAD65368C /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFAAE564B5886BC8ECC620B942C8688 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,13 +46,12 @@
 		48E01BA53A83367B3E096EF547C70F7C /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 38AC7F55569F76053269B56823BA30AD /* DDMultiFormatter.m */; };
 		4910D139AC412860C483CB8102CD7C13 /* DDFileLogger+Buffering.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B8B4B8390E2591EA418DD719E6AF14B /* DDFileLogger+Buffering.m */; };
 		4AEC050FA7D5ED52FDA9DF50EA3560DF /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183B1F7DEE1184293AAC3E13916D59E6 /* ParameterEncoder.swift */; };
-		4AFC539B8ABA56C51D44EE969A51AF11 /* MD5ase64.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF7CEE3D4E1455677205C976C983EC6 /* MD5ase64.swift */; };
 		4B3BE3F7655902FF1C4CBE0FCD3D7BA0 /* DDOSLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = EBFA49A29542D7FA333861C88E2EE7B2 /* DDOSLogger.m */; };
 		55891B17B64B6254F7DEF6516FCC8704 /* HelpingMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61586B0B3A2B6B57E7420D4289B3D64 /* HelpingMapper.swift */; };
 		59F93F544165BCDD5B0D3684EA992D56 /* CustomDateFormatTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 673874A078342B8956A328A7B28D1929 /* CustomDateFormatTransform.swift */; };
 		5D845700CC3C7E9C5D64C05AC636BF81 /* ExtendCustomModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169C21474ECB32B69CF410086E359A4E /* ExtendCustomModelType.swift */; };
 		609FA5715B52B8C0BA55E30948DAF190 /* DDAssert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E538C58320714FC59C73CCC6A1078847 /* DDAssert.swift */; };
-		62304A7B21DD4D029701A2BD3E861936 /* HQJNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1EE19BCE718E44A8330BACCE3C9380FF /* HQJNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62304A7B21DD4D029701A2BD3E861936 /* HQJNetwork-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38F7E8EAD21A31C6EDADB7E812D730E5 /* HQJNetwork-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		636DF3C49734A1BCF15C66E96345731A /* ReflectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 850D41E52E6C09DC3DCA0842A52019ED /* ReflectionHelper.swift */; };
 		645EED2590A6F5A050CACF13348AFEA3 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = F0F56E45121B236C9C887AFC9C7093C9 /* DDDispatchQueueLogFormatter.m */; };
 		6546D728B69398F93B506845141EBD61 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB00B6A2D655B2DD5B97C23186DA00D /* EventMonitor.swift */; };
@@ -84,11 +81,12 @@
 		839A066048A014D4B5A897FD5FA9104E /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C0D2A0C1CBDBA6BFC2348206002390D8 /* DDTTYLogger.m */; };
 		84CF04E31BD14FC03E26E796CEDCEAEB /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADE602389C33FC37096D0C52C36E9CDE /* CocoaLumberjack-dummy.m */; };
 		8AA937910F87915DE700CAB6C868689E /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0E9FE32BD77D533B95BE517C55352A /* Notifications.swift */; };
+		8E6FE4E3EE5919E53F980FC4705804F3 /* AESCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E63E972F36F6E979BDF765F5FFA9BE /* AESCrypt.swift */; };
 		911448B2EDA2FF880108F77642797A88 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02795E0333234966F46B2811241D62DC /* ResponseSerialization.swift */; };
 		91B837CE0DCD8EDB300FCDFFA1279162 /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FEF4580E8A6EEEB9A9D1D112A8ADD2 /* HTTPHeaders.swift */; };
+		9248AC97322D46259E44768E0A6FB7FC /* HQJMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C145FBDAC4AA7CFBEDF13116644E8D8 /* HQJMD5.swift */; };
 		94F5AA585D4049C94A90E886315BA461 /* HandyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 556E2C570BB6929FCA73116DA48BFE5F /* HandyJSON.framework */; };
 		9525BD80540E783F63EE0D7036260FC6 /* FieldDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FBE0A11502A3D0E68E8D5D0E5692A8 /* FieldDescriptor.swift */; };
-		96DFE78EEE45575A1765DD8AFB0261EE /* HCNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8A39124F65D33A6499221091886851 /* HCNetwork.swift */; };
 		98A99D74B06A2072E3A40253761288B5 /* Serializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF84FDADB2725C46B9804A5F9808C7B /* Serializer.swift */; };
 		9B1D8A7798D8A6F518FC9AF9725431D0 /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0900D3F15D8300158A5EBFB37F366D2A /* URLConvertible+URLRequestConvertible.swift */; };
 		9C245D16B6957AB8A25372B2140BB851 /* OtherExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E5A76DD95198A98C8B6DA8CBB2D1C48 /* OtherExtension.swift */; };
@@ -99,6 +97,7 @@
 		A4D61E0A6869AAE4424AA5698E1D0832 /* DDLoggerNames.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EEB146F02635C928B3B83AD41C5F76A /* DDLoggerNames.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A633A470AABC9700F04CEC7B250082B6 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3BD356EF9023BC3BD5BED668998C6 /* Logger.swift */; };
 		A88E270BAA96D258C52C9D64A1359C2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0060CB4DF3F92A563EA24EB7203B2708 /* Foundation.framework */; };
+		A9B5E6147FDB10570A538CB027F61BD5 /* HQJNetwork-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A4E13D83B6448EF3A355617460F3371 /* HQJNetwork-dummy.m */; };
 		A9C7B29D4878F1690BBE3F8195CF0313 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25D9052049B47E5AEE1C86A51CA246B8 /* CFNetwork.framework */; };
 		ABA85887A41495358C83CE3F3030EDEA /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A666CDC7B2BC57E1AF441E82348C1A4C /* CachedResponseHandler.swift */; };
 		B2B7AE1542AAD3F7513F51607B636E1F /* Measuable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7676179F54790BB9C3901D0187783B /* Measuable.swift */; };
@@ -110,6 +109,7 @@
 		B7A06FE85514EA2F0AE0EE1D26DA3F72 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173F505952BF389EC824F502458AA498 /* Alamofire.framework */; };
 		BA92507F67EA62D8DB11282E049CABF9 /* Deserializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6317C93944CD9B74DBB264B626512F /* Deserializer.swift */; };
 		BA953118F5FCB918A4B2090A31B885DD /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356830F50510DD7E3AD58974A36EACA /* DateFormatterTransform.swift */; };
+		BB2F7A188F0235DCBBBA1CE93EA1A790 /* HQJHttpsTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3D602DBEF14C905522EEF00661FE93 /* HQJHttpsTool.swift */; };
 		BF3C3AFF69FEA74F735CB650E71D8D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0060CB4DF3F92A563EA24EB7203B2708 /* Foundation.framework */; };
 		C1C5B050B55C15103ABC81769551A283 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C70D4B5F1769C9443E051889F236A /* Response.swift */; };
 		C1F1DB6A9CBDE584D09BA1613AAD4F9D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE3E844C72DCEC284A46B9E2C49EB56 /* Alamofire.swift */; };
@@ -121,7 +121,6 @@
 		CC9373F6F2453DAD434A9E7BA71A48C6 /* DataTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9B42A31D041358E4AFDD6ED5EB38D8 /* DataTransform.swift */; };
 		CD864FFA16C60362DAE22326BA06A8F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0060CB4DF3F92A563EA24EB7203B2708 /* Foundation.framework */; };
 		CDD1CB23C9A2E676C465D098B4817FF9 /* Transformable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86540FB4D007B6C815847CE7F79CB48 /* Transformable.swift */; };
-		CF55FFF3E6D23ABB0638A05072696074 /* AESCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DB933C209C2973E090A50C53F26B5B /* AESCrypt.swift */; };
 		D03F1F02DE8606E6057D57866611BEBF /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227CBB771DA515AAD182B0EDA906A21C /* MultipartUpload.swift */; };
 		D14066FAE94E304798E43651E5886D13 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EADCB4744F4F87F6C6A6F183D10CBD0 /* ParameterEncoding.swift */; };
 		D31FC7FDD450C4CDD633ECBAD27C6221 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEEE44E1B20CB93D569D0166B79942D /* URLEncodedFormEncoder.swift */; };
@@ -135,6 +134,7 @@
 		F0F3224FF592F9BA2A044A2FC2BD4CCD /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6616F4DB638B0DD53CDA90B386A78 /* Validation.swift */; };
 		F15B7EC88FA120503859EB67446F245E /* BuiltInBasicType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4509F50786278554EBD0084D93D543BD /* BuiltInBasicType.swift */; };
 		F3467B45079C184FF12F6808E2666BDB /* HandyJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 503469FF7B45A1D03C5C614741FA465E /* HandyJSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A902F50A33D6A1BAC3C4AB5C02558E /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49B47B53467F1348A265AF5A239272DB /* Networking.swift */; };
 		F70EF854395CDE981A8336E4FF0310FE /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27EA57E9148B5ACF20B5CBABFAA4155 /* URLSessionConfiguration+Alamofire.swift */; };
 		FA5AC1EFA651D8FBDA00427E9183B488 /* HandyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E48D548DA25EB7A642874DF3284A45C /* HandyJSON-dummy.m */; };
 		FC95C966230ECC898BBC19709270E1EC /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 55745F507929040B745CC04A6CF82CC0 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -200,51 +200,51 @@
 		02795E0333234966F46B2811241D62DC /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		03F5FDF96464BE3AC0B9DFD9F78C625B /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
 		0900D3F15D8300158A5EBFB37F366D2A /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		09800FBA2F6B5B917EDAECE51A68D6AF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		0B6317C93944CD9B74DBB264B626512F /* Deserializer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Deserializer.swift; path = Source/Deserializer.swift; sourceTree = "<group>"; };
 		0B8B4B8390E2591EA418DD719E6AF14B /* DDFileLogger+Buffering.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "DDFileLogger+Buffering.m"; path = "Sources/CocoaLumberjack/Extensions/DDFileLogger+Buffering.m"; sourceTree = "<group>"; };
 		0BDE374C164E85F9FBE27F856C037FAB /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		0E1998EDA36822329D56807EE7DE56DF /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		0FCE01261B3CC6BE62167737903A2877 /* EnumTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumTransform.swift; path = Source/EnumTransform.swift; sourceTree = "<group>"; };
-		109A8733ACAC51F4BED32307D4C5E017 /* HQJHttpsTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HQJHttpsTool.swift; sourceTree = "<group>"; };
+		109D08BC2BFFF8080C6E48B6588032E6 /* HQJNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQJNetwork.release.xcconfig; sourceTree = "<group>"; };
 		1181B8E77C77E33EB005ECEE4A5968E7 /* DDFileLogger+Buffering.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Buffering.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger+Buffering.h"; sourceTree = "<group>"; };
 		12A373D85A527AD431F1CA85E2134636 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
 		169C21474ECB32B69CF410086E359A4E /* ExtendCustomModelType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtendCustomModelType.swift; path = Source/ExtendCustomModelType.swift; sourceTree = "<group>"; };
+		16B1D9C00246955A4ECC6A1E0A532A73 /* HQJNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HQJNetwork.swift; path = HQJNetwork/Classes/HQJNetwork.swift; sourceTree = "<group>"; };
 		173F505952BF389EC824F502458AA498 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		183B1F7DEE1184293AAC3E13916D59E6 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		1D36EB87A62184D870F2A0710B1E0D8E /* Pods-HQJNetwork_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HQJNetwork_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		1E48D548DA25EB7A642874DF3284A45C /* HandyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HandyJSON-dummy.m"; sourceTree = "<group>"; };
-		1EE19BCE718E44A8330BACCE3C9380FF /* HQJNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQJNetwork-umbrella.h"; sourceTree = "<group>"; };
 		21F5281B4CF32AB93BCDE7FD61F8CBD0 /* ISO8601DateTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ISO8601DateTransform.swift; path = Source/ISO8601DateTransform.swift; sourceTree = "<group>"; };
 		220EFBF05267A91D2E99D7A7981D2F8C /* Pods-HQJNetwork_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQJNetwork_Example.release.xcconfig"; sourceTree = "<group>"; };
 		227CBB771DA515AAD182B0EDA906A21C /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
 		25D9052049B47E5AEE1C86A51CA246B8 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		26DB933C209C2973E090A50C53F26B5B /* AESCrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AESCrypt.swift; sourceTree = "<group>"; };
 		280D0509FCC7CFE31997D6D1999D1297 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		2C145FBDAC4AA7CFBEDF13116644E8D8 /* HQJMD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HQJMD5.swift; sourceTree = "<group>"; };
 		2D5A5AF724FE27AB0209DC936A84083E /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLogMacros.h; sourceTree = "<group>"; };
 		2F41CE400E3F2BA0771F1C251131276A /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		308EFFC3EAC55CEE2AD849DBEE5C56FB /* HQJNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HQJNetwork-dummy.m"; sourceTree = "<group>"; };
 		35EFB19F26FEE355A0C00ADC0BDD35C8 /* HandyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HandyJSON-prefix.pch"; sourceTree = "<group>"; };
 		38AC7F55569F76053269B56823BA30AD /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		38F7E8EAD21A31C6EDADB7E812D730E5 /* HQJNetwork-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQJNetwork-umbrella.h"; sourceTree = "<group>"; };
+		3A4E13D83B6448EF3A355617460F3371 /* HQJNetwork-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HQJNetwork-dummy.m"; sourceTree = "<group>"; };
 		3A9B42A31D041358E4AFDD6ED5EB38D8 /* DataTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransform.swift; path = Source/DataTransform.swift; sourceTree = "<group>"; };
 		3D8A87B757CD00CFCC760D87C1C366A8 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
-		3F5146B9B70F2BA242F62059E32ACE27 /* HQJNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQJNetwork.release.xcconfig; sourceTree = "<group>"; };
 		3FEEE44E1B20CB93D569D0166B79942D /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		403217834634983E88CC9D23F627608B /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
 		4509F50786278554EBD0084D93D543BD /* BuiltInBasicType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltInBasicType.swift; path = Source/BuiltInBasicType.swift; sourceTree = "<group>"; };
 		483A43A8764701C3561E233FA46CA8E1 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
-		4AA50AA510B14575207C665D5AC84439 /* HQJNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HQJNetwork-Info.plist"; sourceTree = "<group>"; };
+		49B47B53467F1348A265AF5A239272DB /* Networking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Networking.swift; path = HQJNetwork/Classes/Networking.swift; sourceTree = "<group>"; };
 		4D71DC611F9C0837E03BCDD0483B0556 /* EnumType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EnumType.swift; path = Source/EnumType.swift; sourceTree = "<group>"; };
-		4E25F8B72E282E0623EFDE3A56B36044 /* HQJNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HQJNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		503469FF7B45A1D03C5C614741FA465E /* HandyJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HandyJSON.h; path = Source/HandyJSON.h; sourceTree = "<group>"; };
 		51059409C36721E58C49356C8F4E1603 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Configuration.swift; path = Source/Configuration.swift; sourceTree = "<group>"; };
 		521A2951C06913F9DD2ECDA182203616 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDTTYLogger.h; sourceTree = "<group>"; };
 		5376AB3B68204BFCBEE97989954DA9D2 /* NSDecimalNumberTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSDecimalNumberTransform.swift; path = Source/NSDecimalNumberTransform.swift; sourceTree = "<group>"; };
+		543282FF5DF88DABC252426579E9067F /* HQJNetwork-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HQJNetwork-Info.plist"; sourceTree = "<group>"; };
 		556E2C570BB6929FCA73116DA48BFE5F /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55720E0CAEB3F0012FD968E0ED20FAAD /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Sources/CocoaLumberjack/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
 		55745F507929040B745CC04A6CF82CC0 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
 		578D4884D6217EEC7AA7B1C1C415149A /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		57FEF4580E8A6EEEB9A9D1D112A8ADD2 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		58E63E972F36F6E979BDF765F5FFA9BE /* AESCrypt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AESCrypt.swift; sourceTree = "<group>"; };
 		58EA9F53D303F962145CD8F76FF7F8F8 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		5A0F4119D561EA1F3ADAB2EC3839AE11 /* HandyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HandyJSON.modulemap; sourceTree = "<group>"; };
 		5AD72C97FBFEEC70F35672CCEB15A674 /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
@@ -257,30 +257,29 @@
 		5E5A76DD95198A98C8B6DA8CBB2D1C48 /* OtherExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OtherExtension.swift; path = Source/OtherExtension.swift; sourceTree = "<group>"; };
 		5EFAAE564B5886BC8ECC620B942C8688 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDAssertMacros.h; sourceTree = "<group>"; };
 		6153F35CC6BCC9930A8C74528DFE642E /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		62FF147101E39BF362BDEF7B8A78A1FE /* HQJNetwork.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HQJNetwork.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64F0FE53561EE7FD246279F9E3374A8D /* HQJNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HQJNetwork.modulemap; sourceTree = "<group>"; };
 		663A0B6AE3920C41E2B22DC699ED73AF /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
 		673874A078342B8956A328A7B28D1929 /* CustomDateFormatTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomDateFormatTransform.swift; path = Source/CustomDateFormatTransform.swift; sourceTree = "<group>"; };
-		677B8E84DB5F84B1B5C8895B22A9491C /* HQJNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQJNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		68F21D46E989DA3B60BE3D8B20E24EAF /* Pods-HQJNetwork_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HQJNetwork_Example.modulemap"; sourceTree = "<group>"; };
 		6BE3E844C72DCEC284A46B9E2C49EB56 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		6D0C8AB82071A03B694FC2DC75FAC3BD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6EADCB4744F4F87F6C6A6F183D10CBD0 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		6F13AE4F84E338E3126B83DA24724D45 /* CLIColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CLIColor.m; path = Sources/CocoaLumberjack/CLI/CLIColor.m; sourceTree = "<group>"; };
 		6F9560977153DC6D270E85D22EE5CC08 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog+LOGV.h"; sourceTree = "<group>"; };
 		70D2A7C8B9067F2E5B5DBD19154F2BFA /* SwiftLogLevel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftLogLevel.h; path = Sources/CocoaLumberjackSwiftSupport/include/CocoaLumberjackSwiftSupport/SwiftLogLevel.h; sourceTree = "<group>"; };
 		725C31BD3B685556BA5E08ACB48BD784 /* Pods_HQJNetwork_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HQJNetwork_Example.framework; path = "Pods-HQJNetwork_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		726C9F69FB871A6875E1C45B5C96CCEF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		75D3BD356EF9023BC3BD5BED668998C6 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Source/Logger.swift; sourceTree = "<group>"; };
 		770B2036EA5312E1712114C31067196A /* HandyJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyJSON.debug.xcconfig; sourceTree = "<group>"; };
 		77641A8179F53A5601CA8B7904A4205D /* CocoaLumberjack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.debug.xcconfig; sourceTree = "<group>"; };
+		7F77D1C4FBDE3F368DEBC426017E934D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		7FD69A71C9554CB63BC39C9A26A017EC /* BuiltInBridgeType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BuiltInBridgeType.swift; path = Source/BuiltInBridgeType.swift; sourceTree = "<group>"; };
 		7FDAD10F91823B541A2C19384B9DF7C0 /* DDFileLogger+Internal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDFileLogger+Internal.h"; path = "Sources/CocoaLumberjack/DDFileLogger+Internal.h"; sourceTree = "<group>"; };
 		850D41E52E6C09DC3DCA0842A52019ED /* ReflectionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReflectionHelper.swift; path = Source/ReflectionHelper.swift; sourceTree = "<group>"; };
 		86C623A1957CA9C1F24D52B108A72A7A /* HexColorTransform.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HexColorTransform.swift; path = Source/HexColorTransform.swift; sourceTree = "<group>"; };
 		87EBD863533E1677C1A905C5C289E95E /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Sources/CocoaLumberjack/DDLog.m; sourceTree = "<group>"; };
 		887F38F6DCACA42F36734607756F368F /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDLog.h; sourceTree = "<group>"; };
-		8A1B878D3959E0BDE965218D7702C9AF /* HQJNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQJNetwork-prefix.pch"; sourceTree = "<group>"; };
-		8A8A39124F65D33A6499221091886851 /* HCNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCNetwork.swift; path = HQJNetwork/Classes/HCNetwork.swift; sourceTree = "<group>"; };
 		8C4FFE817959E1F7FA50CF4C4F939DB2 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		8EC94ED4196F046414C49AAE82FF1B1B /* HQJNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HQJNetwork.swift; path = HQJNetwork/Classes/HQJNetwork.swift; sourceTree = "<group>"; };
 		901F34EA25C965B2441DCB0F91CBE572 /* ContextDescriptorType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ContextDescriptorType.swift; path = Source/ContextDescriptorType.swift; sourceTree = "<group>"; };
 		9188972E7CB19E57A1D11024D9E02A41 /* HandyJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HandyJSON.release.xcconfig; sourceTree = "<group>"; };
 		930C70D4B5F1769C9443E051889F236A /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
@@ -308,6 +307,7 @@
 		B27EA57E9148B5ACF20B5CBABFAA4155 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		B7630B7B9B488238A0FACC57816CD2AC /* CocoaLumberjack.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaLumberjack.modulemap; sourceTree = "<group>"; };
 		B86540FB4D007B6C815847CE7F79CB48 /* Transformable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transformable.swift; path = Source/Transformable.swift; sourceTree = "<group>"; };
+		BB137793B7420941D7E752666F7C1457 /* HQJNetwork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HQJNetwork.debug.xcconfig; sourceTree = "<group>"; };
 		BDFD298858EC5C7C354216899A7337AD /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDFileLogger.h; sourceTree = "<group>"; };
 		BEC463F4DBDAE5AEBFB82EE702EA1451 /* PropertyInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PropertyInfo.swift; path = Source/PropertyInfo.swift; sourceTree = "<group>"; };
 		BEEDAE306BF89C030757BB0FA90B0C55 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
@@ -319,7 +319,7 @@
 		C29B4F39C53B45073D89CD7DDD302182 /* Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Properties.swift; path = Source/Properties.swift; sourceTree = "<group>"; };
 		C4F4EC69ED5016EC9DE74BEEE9AAB017 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
 		C580CC46EA0474E1910478BB341CDA41 /* TransformType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransformType.swift; path = Source/TransformType.swift; sourceTree = "<group>"; };
-		CA40200D154E8DF0A51AA6059321D13D /* NetworkIng.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkIng.swift; path = HQJNetwork/Classes/NetworkIng.swift; sourceTree = "<group>"; };
+		CB41A8C415D796F40ADC211B9F3342FA /* HCNetwork.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HCNetwork.swift; path = HQJNetwork/Classes/HCNetwork.swift; sourceTree = "<group>"; };
 		CC057730D22C6513BD0ACF190E19DAED /* Pods-HQJNetwork_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HQJNetwork_Example-Info.plist"; sourceTree = "<group>"; };
 		CD54121DDA84872534168702B5F92950 /* HandyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HandyJSON.framework; path = HandyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF64C38C795604F0F0195E8644483E0F /* DDOSLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDOSLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDOSLogger.h; sourceTree = "<group>"; };
@@ -345,6 +345,7 @@
 		EBFA49A29542D7FA333861C88E2EE7B2 /* DDOSLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDOSLogger.m; path = Sources/CocoaLumberjack/DDOSLogger.m; sourceTree = "<group>"; };
 		ED0635B89EFE2ACB34A27DEAA4A059EF /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDMultiFormatter.h; sourceTree = "<group>"; };
 		EF318B6F34542FB9A26928309AAA15C6 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/DDASLLogger.h; sourceTree = "<group>"; };
+		F081FFF001BD3CF1FEC0FD8799401C18 /* HQJNetwork-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HQJNetwork-prefix.pch"; sourceTree = "<group>"; };
 		F0F56E45121B236C9C887AFC9C7093C9 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Sources/CocoaLumberjack/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
 		F1157264F1CB97D757CEAD28D779FBE7 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		F30143902A213F1894531957B5564052 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = "Sources/CocoaLumberjack/Supporting Files/DDLegacyMacros.h"; sourceTree = "<group>"; };
@@ -353,10 +354,9 @@
 		F4647F9F5C8AE151719B83372D5F32F4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		F5D2C83F3ADAFD52F67BAC02783C8E69 /* CocoaLumberjack-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-umbrella.h"; sourceTree = "<group>"; };
 		F5DDB16F2E8312E84EA08EB0D7B5BA93 /* CLIColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CLIColor.h; path = Sources/CocoaLumberjack/include/CocoaLumberjack/CLIColor.h; sourceTree = "<group>"; };
-		F61D0D24EB5E06297CCA7F470C4B5B41 /* HQJNetwork.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HQJNetwork.modulemap; sourceTree = "<group>"; };
 		F81FEEA91452B3916A6310D717317EFC /* Pods-HQJNetwork_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HQJNetwork_Example-frameworks.sh"; sourceTree = "<group>"; };
 		FA4413D818BA2300C45F5DE87506E1D9 /* Pods-HQJNetwork_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HQJNetwork_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FCF7CEE3D4E1455677205C976C983EC6 /* MD5ase64.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MD5ase64.swift; sourceTree = "<group>"; };
+		FD3D602DBEF14C905522EEF00661FE93 /* HQJHttpsTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HQJHttpsTool.swift; sourceTree = "<group>"; };
 		FDA31696585321D23283C5C90C848CA5 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CocoaLumberjack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -408,6 +408,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05BE963DE3BBAAF9737389743243AD12 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				58E63E972F36F6E979BDF765F5FFA9BE /* AESCrypt.swift */,
+				FD3D602DBEF14C905522EEF00661FE93 /* HQJHttpsTool.swift */,
+				2C145FBDAC4AA7CFBEDF13116644E8D8 /* HQJMD5.swift */,
+			);
+			name = Tool;
+			path = HQJNetwork/Classes/Tool;
+			sourceTree = "<group>";
+		};
 		0F1566A911984840C714675C3B22E190 /* Pods-HQJNetwork_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -469,16 +480,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4CAB4039106FF84F9BA95501F66448DB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4E25F8B72E282E0623EFDE3A56B36044 /* HQJNetwork.podspec */,
-				726C9F69FB871A6875E1C45B5C96CCEF /* LICENSE */,
-				09800FBA2F6B5B917EDAECE51A68D6AF /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		5D0D921E1A0678311CA8437BF8FA24A5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -497,7 +498,7 @@
 		78FBBCC9C57F9950431E6BA7B2DFD9E1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C33C3F7C312A8C8718DCE20ACBC58A0D /* HQJNetwork */,
+				9C2D22F4DB860471C7978F46464A6CE8 /* HQJNetwork */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -616,41 +617,15 @@
 			path = "../Target Support Files/CocoaLumberjack";
 			sourceTree = "<group>";
 		};
-		9E65E3970BD3A52D042DAB593837AF90 /* Tool */ = {
+		9C2D22F4DB860471C7978F46464A6CE8 /* HQJNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				26DB933C209C2973E090A50C53F26B5B /* AESCrypt.swift */,
-				109A8733ACAC51F4BED32307D4C5E017 /* HQJHttpsTool.swift */,
-				FCF7CEE3D4E1455677205C976C983EC6 /* MD5ase64.swift */,
-			);
-			name = Tool;
-			path = HQJNetwork/Classes/Tool;
-			sourceTree = "<group>";
-		};
-		B2A41EC31A6201D7DA6236E30A006239 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F61D0D24EB5E06297CCA7F470C4B5B41 /* HQJNetwork.modulemap */,
-				308EFFC3EAC55CEE2AD849DBEE5C56FB /* HQJNetwork-dummy.m */,
-				4AA50AA510B14575207C665D5AC84439 /* HQJNetwork-Info.plist */,
-				8A1B878D3959E0BDE965218D7702C9AF /* HQJNetwork-prefix.pch */,
-				1EE19BCE718E44A8330BACCE3C9380FF /* HQJNetwork-umbrella.h */,
-				677B8E84DB5F84B1B5C8895B22A9491C /* HQJNetwork.debug.xcconfig */,
-				3F5146B9B70F2BA242F62059E32ACE27 /* HQJNetwork.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HQJNetwork";
-			sourceTree = "<group>";
-		};
-		C33C3F7C312A8C8718DCE20ACBC58A0D /* HQJNetwork */ = {
-			isa = PBXGroup;
-			children = (
-				8A8A39124F65D33A6499221091886851 /* HCNetwork.swift */,
-				8EC94ED4196F046414C49AAE82FF1B1B /* HQJNetwork.swift */,
-				CA40200D154E8DF0A51AA6059321D13D /* NetworkIng.swift */,
-				4CAB4039106FF84F9BA95501F66448DB /* Pod */,
-				B2A41EC31A6201D7DA6236E30A006239 /* Support Files */,
-				9E65E3970BD3A52D042DAB593837AF90 /* Tool */,
+				CB41A8C415D796F40ADC211B9F3342FA /* HCNetwork.swift */,
+				16B1D9C00246955A4ECC6A1E0A532A73 /* HQJNetwork.swift */,
+				49B47B53467F1348A265AF5A239272DB /* Networking.swift */,
+				EB3937E6DE42F1FC7A511FC4A970A308 /* Pod */,
+				E7ABA7E61598FA2D651FD54E592D3567 /* Support Files */,
+				05BE963DE3BBAAF9737389743243AD12 /* Tool */,
 			);
 			name = HQJNetwork;
 			path = ../..;
@@ -685,6 +660,31 @@
 				0F1566A911984840C714675C3B22E190 /* Pods-HQJNetwork_Example */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E7ABA7E61598FA2D651FD54E592D3567 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F0FE53561EE7FD246279F9E3374A8D /* HQJNetwork.modulemap */,
+				3A4E13D83B6448EF3A355617460F3371 /* HQJNetwork-dummy.m */,
+				543282FF5DF88DABC252426579E9067F /* HQJNetwork-Info.plist */,
+				F081FFF001BD3CF1FEC0FD8799401C18 /* HQJNetwork-prefix.pch */,
+				38F7E8EAD21A31C6EDADB7E812D730E5 /* HQJNetwork-umbrella.h */,
+				BB137793B7420941D7E752666F7C1457 /* HQJNetwork.debug.xcconfig */,
+				109D08BC2BFFF8080C6E48B6588032E6 /* HQJNetwork.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HQJNetwork";
+			sourceTree = "<group>";
+		};
+		EB3937E6DE42F1FC7A511FC4A970A308 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				62FF147101E39BF362BDEF7B8A78A1FE /* HQJNetwork.podspec */,
+				7F77D1C4FBDE3F368DEBC426017E934D /* LICENSE */,
+				6D0C8AB82071A03B694FC2DC75FAC3BD /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F1EA9585EF5B9795F87DDD39A45A2928 /* Alamofire */ = {
@@ -830,7 +830,7 @@
 			buildConfigurationList = 2B531196B6094E79AE652B33486B9309 /* Build configuration list for PBXNativeTarget "HQJNetwork" */;
 			buildPhases = (
 				FC343963861FC3831C08D05D04700BCA /* Headers */,
-				CCE6A0C05C0262A208C24C57F414DDA0 /* Sources */,
+				9AF4AA724A94949B080706CF2A4AB2F5 /* Sources */,
 				74AF2FB24F667C07A127DF708EAB7727 /* Frameworks */,
 				F9327F6C57D6C22891530CA9BCA12982 /* Resources */,
 			);
@@ -1060,6 +1060,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		9AF4AA724A94949B080706CF2A4AB2F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E6FE4E3EE5919E53F980FC4705804F3 /* AESCrypt.swift in Sources */,
+				12A6E5BBDB58A4AA760966E8F52C2791 /* HCNetwork.swift in Sources */,
+				BB2F7A188F0235DCBBBA1CE93EA1A790 /* HQJHttpsTool.swift in Sources */,
+				9248AC97322D46259E44768E0A6FB7FC /* HQJMD5.swift in Sources */,
+				A9B5E6147FDB10570A538CB027F61BD5 /* HQJNetwork-dummy.m in Sources */,
+				1BF127BD72D82B690BFBAC0F4391EFB6 /* HQJNetwork.swift in Sources */,
+				F3A902F50A33D6A1BAC3C4AB5C02558E /* Networking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ABAE91813E095F3524823758402B9002 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1089,20 +1103,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7838AB6BB6C2F48AA52531D05B6793A3 /* Pods-HQJNetwork_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CCE6A0C05C0262A208C24C57F414DDA0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CF55FFF3E6D23ABB0638A05072696074 /* AESCrypt.swift in Sources */,
-				96DFE78EEE45575A1765DD8AFB0261EE /* HCNetwork.swift in Sources */,
-				073C711415499F585D092BE6AB9BDF50 /* HQJHttpsTool.swift in Sources */,
-				40971DB69A22A99DEC19839E26A409E2 /* HQJNetwork-dummy.m in Sources */,
-				209F366F81C4851F27378990631E61A7 /* HQJNetwork.swift in Sources */,
-				4AFC539B8ABA56C51D44EE969A51AF11 /* MD5ase64.swift in Sources */,
-				0DC8C9D139FC48A0D21FC5B4D23D7DA1 /* NetworkIng.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1371,7 +1371,7 @@
 		};
 		9D34BF2E01193AE32128912EE5707C4E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3F5146B9B70F2BA242F62059E32ACE27 /* HQJNetwork.release.xcconfig */;
+			baseConfigurationReference = 109D08BC2BFFF8080C6E48B6588032E6 /* HQJNetwork.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1433,7 +1433,7 @@
 		};
 		CE481AD9359105A6B57191C76F3BC781 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 677B8E84DB5F84B1B5C8895B22A9491C /* HQJNetwork.debug.xcconfig */;
+			baseConfigurationReference = BB137793B7420941D7E752666F7C1457 /* HQJNetwork.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

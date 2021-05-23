@@ -1,12 +1,12 @@
 //
-//  MD5ase64.swift
-//  HCSwift
+//  HQJMD5.swift
+//  HQJNetwork
 //
-//  Created by 衡前进 on 2018/8/28.
-//  Copyright © 2018年 衡前进. All rights reserved.
+//  Created by mac on 2021/5/23.
 //
 
 import UIKit
+ 
 import CommonCrypto
 // MARK: ------------------------ 字符串加密
 // 首先导入加密库
@@ -67,7 +67,4 @@ extension String {
         let endIndex = self.index(self.startIndex, offsetBy: to)
         return String(self[beginIndex...endIndex])
     }
-}
-class MD5ase64: NSObject {
-
 }

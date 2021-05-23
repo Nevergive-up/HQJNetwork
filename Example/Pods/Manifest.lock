@@ -4,7 +4,7 @@ PODS:
   - CocoaLumberjack/Swift (3.7.0):
     - CocoaLumberjack/Core
   - HandyJSON (5.0.3-beta)
-  - HQJNetwork (0.1.0):
+  - HQJNetwork (1.0.0):
     - Alamofire
     - CocoaLumberjack/Swift
     - HandyJSON
@@ -43,7 +43,7 @@ SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
   HandyJSON: 88e8ea5f66ab65c3b8768499a1935d0509c460d4
-  HQJNetwork: fa408a3d5a565d2399928ef12e1790f76b65c5dc
+  HQJNetwork: b1662239ba15058720da7932ca21407d163595f7
 
 PODFILE CHECKSUM: 442ae0a79dab2d4d0c24f95eaac3350d0fe505f4
 
