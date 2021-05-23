@@ -1,13 +1,13 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
 target 'HQJNetwork_Example' do
+   
+  pod 'HandyJSON',    :git=> 'https://gitee.com/shenzhaoliang/HandyJSON.git', :tag=> '5.0.3-beta'
+  pod 'Alamofire',    :git=> 'https://gitee.com/shenzhaoliang/Alamofire.git', :tag=> '5.4.1'
+  pod 'CocoaLumberjack/Swift', :git=> 'https://gitee.com/shenzhaoliang/CocoaLumberjack.git', :tag=> '3.7.0'
+  
   pod 'HQJNetwork', :path => '../'
-
-  target 'HQJNetwork_Tests' do
-    inherit! :search_paths
-
-    pod 'FBSnapshotTestCase' , '~> 2.1.4'
-  end
+    
 end

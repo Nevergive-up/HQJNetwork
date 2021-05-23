@@ -1,27 +1,50 @@
 PODS:
-  - FBSnapshotTestCase (2.1.4):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
-  - FBSnapshotTestCase/Core (2.1.4)
-  - FBSnapshotTestCase/SwiftSupport (2.1.4):
-    - FBSnapshotTestCase/Core
-  - HQJNetwork (0.1.0)
+  - Alamofire (5.4.1)
+  - CocoaLumberjack/Core (3.7.0)
+  - CocoaLumberjack/Swift (3.7.0):
+    - CocoaLumberjack/Core
+  - HandyJSON (5.0.3-beta)
+  - HQJNetwork (0.1.0):
+    - Alamofire
+    - CocoaLumberjack/Swift
+    - HandyJSON
 
 DEPENDENCIES:
-  - FBSnapshotTestCase (~> 2.1.4)
+  - Alamofire (from `https://gitee.com/shenzhaoliang/Alamofire.git`, tag `5.4.1`)
+  - CocoaLumberjack/Swift (from `https://gitee.com/shenzhaoliang/CocoaLumberjack.git`, tag `3.7.0`)
+  - HandyJSON (from `https://gitee.com/shenzhaoliang/HandyJSON.git`, tag `5.0.3-beta`)
   - HQJNetwork (from `../`)
 
-SPEC REPOS:
-  trunk:
-    - FBSnapshotTestCase
-
 EXTERNAL SOURCES:
+  Alamofire:
+    :git: https://gitee.com/shenzhaoliang/Alamofire.git
+    :tag: 5.4.1
+  CocoaLumberjack:
+    :git: https://gitee.com/shenzhaoliang/CocoaLumberjack.git
+    :tag: 3.7.0
+  HandyJSON:
+    :git: https://gitee.com/shenzhaoliang/HandyJSON.git
+    :tag: 5.0.3-beta
   HQJNetwork:
     :path: "../"
 
-SPEC CHECKSUMS:
-  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HQJNetwork: 6e334a606bb62f42053e9ae9db61bbb627a162e0
+CHECKOUT OPTIONS:
+  Alamofire:
+    :git: https://gitee.com/shenzhaoliang/Alamofire.git
+    :tag: 5.4.1
+  CocoaLumberjack:
+    :git: https://gitee.com/shenzhaoliang/CocoaLumberjack.git
+    :tag: 3.7.0
+  HandyJSON:
+    :git: https://gitee.com/shenzhaoliang/HandyJSON.git
+    :tag: 5.0.3-beta
 
-PODFILE CHECKSUM: 47ad125fc80b60e4d2629b9811e3b5f59764cfe7
+SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  CocoaLumberjack: e8955b9d337ac307103b0a34fd141c32f27e53c5
+  HandyJSON: 88e8ea5f66ab65c3b8768499a1935d0509c460d4
+  HQJNetwork: fa408a3d5a565d2399928ef12e1790f76b65c5dc
+
+PODFILE CHECKSUM: 442ae0a79dab2d4d0c24f95eaac3350d0fe505f4
 
 COCOAPODS: 1.10.1

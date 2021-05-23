@@ -28,7 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/mac/HQJNetwork.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target   = '10.0'
+  s.requires_arc            = true
+  s.swift_version           = '5.0'
 
   s.source_files = 'HQJNetwork/Classes/**/*'
   
@@ -38,5 +40,8 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Alamofire'
+  s.dependency 'HandyJSON'
+  s.dependency 'CocoaLumberjack/Swift'
+  
 end

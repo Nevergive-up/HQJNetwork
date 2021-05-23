@@ -1,5 +1,5 @@
 import XCTest
-import HQJNetwork
+//import HQJNetwork
 
 class Tests: XCTestCase {
     

@@ -16,7 +16,21 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "10.0"
   },
-  "source_files": "HQJNetwork/Classes/**/*"
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "source_files": "HQJNetwork/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ],
+    "HandyJSON": [
+
+    ],
+    "CocoaLumberjack/Swift": [
+
+    ]
+  },
+  "swift_version": "5.0"
 }
