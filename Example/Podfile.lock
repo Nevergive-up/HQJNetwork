@@ -10,33 +10,33 @@ PODS:
     - HandyJSON
 
 DEPENDENCIES:
-  - Alamofire (from `https://gitee.com/shenzhaoliang/Alamofire.git`, tag `5.4.1`)
-  - CocoaLumberjack/Swift (from `https://gitee.com/shenzhaoliang/CocoaLumberjack.git`, tag `3.7.0`)
-  - HandyJSON (from `https://gitee.com/shenzhaoliang/HandyJSON.git`, tag `5.0.3-beta`)
+  - Alamofire (from `https://gitee.com/tripartite/Alamofire.git`, tag `5.4.1`)
+  - CocoaLumberjack/Swift (from `https://gitee.com/tripartite/CocoaLumberjack.git`, tag `3.7.0`)
+  - HandyJSON (from `https://gitee.com/tripartite/HandyJSON.git`, tag `5.0.3-beta`)
   - HQJNetwork (from `../`)
 
 EXTERNAL SOURCES:
   Alamofire:
-    :git: https://gitee.com/shenzhaoliang/Alamofire.git
+    :git: https://gitee.com/tripartite/Alamofire.git
     :tag: 5.4.1
   CocoaLumberjack:
-    :git: https://gitee.com/shenzhaoliang/CocoaLumberjack.git
+    :git: https://gitee.com/tripartite/CocoaLumberjack.git
     :tag: 3.7.0
   HandyJSON:
-    :git: https://gitee.com/shenzhaoliang/HandyJSON.git
+    :git: https://gitee.com/tripartite/HandyJSON.git
     :tag: 5.0.3-beta
   HQJNetwork:
     :path: "../"
 
 CHECKOUT OPTIONS:
   Alamofire:
-    :git: https://gitee.com/shenzhaoliang/Alamofire.git
+    :git: https://gitee.com/tripartite/Alamofire.git
     :tag: 5.4.1
   CocoaLumberjack:
-    :git: https://gitee.com/shenzhaoliang/CocoaLumberjack.git
+    :git: https://gitee.com/tripartite/CocoaLumberjack.git
     :tag: 3.7.0
   HandyJSON:
-    :git: https://gitee.com/shenzhaoliang/HandyJSON.git
+    :git: https://gitee.com/tripartite/HandyJSON.git
     :tag: 5.0.3-beta
 
 SPEC CHECKSUMS:
@@ -45,6 +45,6 @@ SPEC CHECKSUMS:
   HandyJSON: 88e8ea5f66ab65c3b8768499a1935d0509c460d4
   HQJNetwork: b1662239ba15058720da7932ca21407d163595f7
 
-PODFILE CHECKSUM: 442ae0a79dab2d4d0c24f95eaac3350d0fe505f4
+PODFILE CHECKSUM: 625fc662024277fb3a434cb678cccb319ad433c0
 
 COCOAPODS: 1.10.1

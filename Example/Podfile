@@ -4,9 +4,9 @@ platform :ios, '10.0'
 
 target 'HQJNetwork_Example' do
    
-  pod 'HandyJSON',    :git=> 'https://gitee.com/shenzhaoliang/HandyJSON.git', :tag=> '5.0.3-beta'
-  pod 'Alamofire',    :git=> 'https://gitee.com/shenzhaoliang/Alamofire.git', :tag=> '5.4.1'
-  pod 'CocoaLumberjack/Swift', :git=> 'https://gitee.com/shenzhaoliang/CocoaLumberjack.git', :tag=> '3.7.0'
+  pod 'HandyJSON',    :git=> 'https://gitee.com/tripartite/HandyJSON.git', :tag=> '5.0.3-beta'
+  pod 'Alamofire',    :git=> 'https://gitee.com/tripartite/Alamofire.git', :tag=> '5.4.1'
+  pod 'CocoaLumberjack/Swift', :git=> 'https://gitee.com/tripartite/CocoaLumberjack.git', :tag=> '3.7.0'
   
   pod 'HQJNetwork', :path => '../'
     
