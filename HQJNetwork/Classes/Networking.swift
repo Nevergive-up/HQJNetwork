@@ -11,7 +11,7 @@ import Alamofire
 import CocoaLumberjack
  
 ///返回数据类型
-enum HTTPDataType: Int {
+enum HTTPData: Int {
     case one  //单个 model
     case more //数组 model
     case text //字符串
@@ -29,7 +29,7 @@ public class Networking {
                                            modelType: T.Type,
                                            method: HTTPMethod = .post,
                                            parameters: [String: String] = [:],
-                                           successBlock: @escaping (_ type: HTTPResultType, _ model: T?, _ msg:String) -> Void){
+                                           successBlock: @escaping (_ type: HTTPResult, _ model: T?, _ msg:String) -> Void){
         var encoding:ParameterEncoding = URLEncoding.default
         if method == .post {
             encoding = JSONEncoding.default
@@ -52,7 +52,7 @@ public class Networking {
                                            modelType: [T].Type,
                                            method: HTTPMethod = .post,
                                            parameters: [String: String] = [:],
-                                           successBlock: @escaping (_ type: HTTPResultType, _ models: [T?], _ msg:String) -> Void){
+                                           successBlock: @escaping (_ type: HTTPResult, _ models: [T?], _ msg:String) -> Void){
 
         var encoding:ParameterEncoding = URLEncoding.default
         if method == .post {
@@ -75,7 +75,7 @@ public class Networking {
     public class func request(url:String,
                               method: HTTPMethod = .post,
                               parameters: [String: String] = [:],
-                              successBlock: @escaping (_ type: HTTPResultType, _ result: String, _ msg: String) -> Void){
+                              successBlock: @escaping (_ type: HTTPResult, _ result: String, _ msg: String) -> Void){
 
         var encoding:ParameterEncoding = URLEncoding.default
         if method == .post {
@@ -96,11 +96,11 @@ public class Networking {
     }
     ///数据处理
     class func responseData<T:HandyJSON>(
-        _ type: HTTPDataType,
+        _ type: HTTPData,
         _ response: AFDataResponse<Any>,
         _ modelType: T.Type? = nil,
         _ modelTypes: [T].Type? = nil,
-        _ finished: @escaping (_ type:HTTPResultType, _ model: T?, _ models: [T?], _ result: String, _ msg: String) -> Void) {
+        _ finished: @escaping (_ type:HTTPResult, _ model: T?, _ models: [T?], _ result: String, _ msg: String) -> Void) {
         
         if let obj = JSONDeserializer<netResponseData>.deserializeFrom(dict: response.value as? [String:Any]) {
             let message = obj.msg ?? msgNetError
@@ -140,13 +140,13 @@ public class Networking {
     private class var headers: HTTPHeaders {
         get {
             let head: HTTPHeaders = [
-                "iphone_name": iphone_name,
+                "app_version": app_version,
                 "device_name": device_name,
                 "device_model": device_model,
-                "device_IDFA": device_idfa,
-                "system_name": system_name,
-                "system_version": system_version,
-                "app_version": app_version,
+                "device_system_name": device_system_name,
+                "device_system_version": device_system_version,
+                "identifier": identifier,
+                "device_model_name": device_model_name,
             ]
             return head
         }

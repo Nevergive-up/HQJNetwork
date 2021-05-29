@@ -11,25 +11,25 @@ import CocoaLumberjack
  
 public class HCNetwork: NSObject {
    
-    public typealias requestBack = (_ type: HTTPResultType, _ response: Any?, _ message: String) -> Void
-    public typealias requestVideoBack = (_ type: HTTPResultType, _ fileUrl: URL?, _ progress: Double, _ message: String) -> Void
+    public typealias requestBack = (_ type: HTTPResult, _ response: Any?, _ message: String) -> Void
+    public typealias requestVideoBack = (_ type: HTTPResult, _ fileUrl: URL?, _ progress: Double, _ message: String) -> Void
      
    private let msgNetError = "网络错误，请联网后点击重试"
    private let msgDataError = "获取网络数据失败"
     
    public  static let shared = HCNetwork()
    private let manager = NetworkReachabilityManager()
-   
+        
    private var headers: HTTPHeaders {
        get {
            let head: HTTPHeaders = [
-               "iphone_name": iphone_name,
-               "device_name": device_name,
-               "device_model": device_model,
-               "device_IDFA": device_idfa,
-               "system_name": system_name,
-               "system_version": system_version,
-               "app_version": app_version,
+            "app_version": app_version,
+            "device_name": device_name,
+            "device_model": device_model,
+            "device_system_name": device_system_name,
+            "device_system_version": device_system_version,
+            "identifier": identifier,
+            "device_model_name": device_model_name,
            ]
            return head
        }

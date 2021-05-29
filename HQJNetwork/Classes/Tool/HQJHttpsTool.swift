@@ -16,6 +16,7 @@ public func https_response_code(_ response: Any?) -> Int {
 public func https_response_code(_ response: Any?, _ key: String) -> Int {
     return ((response as? [String: Any])?[key] as? NSNumber)?.intValue ?? -1
 }
+
 ///快捷获取 NSNumber
 public func https_response_NSNumber(_ data: [String: Any]?, _ key: String) -> NSNumber? {
     return data?[key] as? NSNumber

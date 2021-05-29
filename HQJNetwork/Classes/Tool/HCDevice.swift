@@ -1,20 +1,17 @@
 //
-//  UIDevice.swift
+//  HCDevice.swift
 //  HQJNetwork
 //
-//  Created by mac on 2021/5/24.
+//  Created by mac on 2021/5/29.
 //
 
 import UIKit
 import AdSupport
-
+ 
 ///token
 public var token:String {
     get {
-        return UserDefaults.standard.value(forKey: "user_token") as? String ?? ""
-    }
-    set {
-        UserDefaults.standard.set(newValue, forKey: "user_token")
+        return UserDefaults.standard.value(forKey: "d") as? String ?? ""
     }
 }
 ///App 版本号
@@ -25,28 +22,10 @@ public var app_version: String {
         return version
     }
 }
-///手机名称
-public var iphone_name: String {
+///设备名称
+public var device_name: String {
     get {
         return UIDevice.current.name
-    }
-}
-///系统名称
-public var system_name: String {
-    get {
-        return UIDevice.current.systemName
-    }
-}
-///iOS系统版本号
-public var system_version: String {
-    get {
-        return UIDevice.current.systemVersion
-    }
-}
-///设备的 IDFA 卸载重装之后不会改变
-public var device_idfa: String {
-    get {
-        return ASIdentifierManager.shared().advertisingIdentifier.uuidString
     }
 }
 ///设备类型 iPhone ipad
@@ -55,8 +34,26 @@ public var device_model: String {
         return UIDevice.current.model
     }
 }
-///设备名
-public var device_name: String {
+///设备系统名称
+public var device_system_name: String {
+    get {
+        return UIDevice.current.systemName
+    }
+}
+///设备系统版本号
+public var device_system_version: String {
+    get {
+        return UIDevice.current.systemVersion
+    }
+}
+///设备的唯一标识：卸载重装之后不会改变
+public var identifier: String {
+    get {
+        return ASIdentifierManager.shared().advertisingIdentifier.uuidString
+    }
+}
+///设备类型名
+public var device_model_name: String {
     get {
         var systemInfo = utsname()
         uname(&systemInfo)
@@ -65,6 +62,7 @@ public var device_name: String {
             return String(cString: ptr)
         }
         switch platform {
+        //MARK: iPod
         case "iPod1,1":
             return "iPod Touch 1"
         case "iPod2,1":
@@ -77,10 +75,7 @@ public var device_name: String {
             return "iPod Touch (5 Gen)"
         case "iPod7,1":
             return "iPod Touch 6"
-        case "iPhone3,1", "iPhone3,2", "iPhone3,3":
-            return "iPhone 4"
-        case "iPhone4,1":
-            return "iPhone 4s"
+        //MARK: iPhone
         case "iPhone5,1":
             return "iPhone 5"
         case "iPhone5,2":
@@ -139,7 +134,7 @@ public var device_name: String {
             return "iPhone 12 Pro"
         case "iPhone13,4":
             return "iPhone 12 Pro Max"
-            
+        //MARK: iPad
         case "iPad1,1":
             return "iPad"
         case "iPad1,2":
@@ -166,6 +161,7 @@ public var device_name: String {
             return "iPad Pro 9.7"
         case "iPad6,7", "iPad6,8":
             return "iPad Pro 12.9"
+        //MARK: AppleTV
         case "AppleTV2,1":
             return "Apple TV 2"
         case "AppleTV3,1","AppleTV3,2":

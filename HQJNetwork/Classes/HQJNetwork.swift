@@ -9,17 +9,17 @@ import UIKit
 import Alamofire
 import CocoaLumberjack
 
-public enum HTTPResultType: Int {
+public enum HTTPResult: Int {
     case noNetwork  = -2    // -2:无网络
-    case error      = -1    // -1:请求失败,重新登录
+    case error      = -1    // -1:请求失败、获取数据失败、数据解析失败
     case failure    = 0     //  0:数据错误
     case success    = 1     //  1:请求成功
 }
 
 public class HQJNetwork: NSObject {
     // MARK: 1.interface
-    public typealias requestBack = (_ type: HTTPResultType, _ response: Any?, _ message: String) -> Void
-    public typealias requestVideoBack = (_ type: HTTPResultType, _ fileUrl: URL?, _ progress: Double, _ message: String) -> Void
+    public typealias requestBack = (_ type: HTTPResult, _ response: Any?, _ message: String) -> Void
+    public typealias requestVideoBack = (_ type: HTTPResult, _ fileUrl: URL?, _ progress: Double, _ message: String) -> Void
     
     /**
      *  网络请求  get / post
@@ -238,13 +238,13 @@ public class HQJNetwork: NSObject {
     private class var headers: HTTPHeaders {
         get {
             let head: HTTPHeaders = [
-                "iphone_name": iphone_name,
+                "app_version": app_version,
                 "device_name": device_name,
                 "device_model": device_model,
-                "device_IDFA": device_idfa,
-                "system_name": system_name,
-                "system_version": system_version,
-                "app_version": app_version,
+                "device_system_name": device_system_name,
+                "device_system_version": device_system_version,
+                "identifier": identifier,
+                "device_model_name": device_model_name,
             ]
             return head
         }
